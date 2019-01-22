@@ -1,0 +1,11 @@
+build:
+  nodes:
+    builder:
+
+      environment:
+        java: java-8-oracle
+
+      dependencies:
+        override:
+          - command: echo "OK"
+            only_if: $JELASTIC_ENABLED
