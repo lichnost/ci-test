@@ -8,4 +8,4 @@ build:
       deployment:
         -
           commands:
-            - command: $JELASTIC_ENABLED && echo "OK"
+            - $JELASTIC_ENABLED && echo "OK"
